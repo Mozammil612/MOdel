@@ -11,14 +11,14 @@ scaler = pickle.load(open('scaler_model.pkl', 'rb'))
 
 # Display user input fields
 
-Preg = st.number_input('Enter the Number of times pregnant: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-Plasma = st.number_input('Enter the Plasma glucose concentration: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-blood = st.number_input('Enter the Diastolic blood pressure: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-Tri = st.number_input('Enter the Triceps skin fold thickness: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-insulin = st.number_input('Enter the 2-Hour serum insulin: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-mass = st.number_input('Enter the Body mass index: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-fun = st.number_input('Enter the Diabetespe digree function: ', min_value=0.0, max_value=1000.0, step=0.1e-6)
-age = st.number_input('Enter the Age: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
+Preg = st.number_input('Enter the Number of times pregnant: ')
+Plasma = st.number_input('Enter the Plasma glucose concentration: ')
+blood = st.number_input('Enter the Diastolic blood pressure: ')
+Tri = st.number_input('Enter the Triceps skin fold thickness: ')
+insulin = st.number_input('Enter the 2-Hour serum insulin: ')
+mass = st.number_input('Enter the Body mass index: ')
+fun = st.number_input('Enter the Diabetespe digree function: ')
+age = st.number_input('Enter the Age: ')
 
 
 
