@@ -29,7 +29,7 @@ if btn_click == True:
         quer = querry.reshape(1,-1)
         pred = model.predict(querry)
         st.success(pred)
-        st.write('1 mean Yes and 0 mean No')
+        
     else:
         st.error("Enter the Values Properly")
 
