@@ -17,7 +17,7 @@ blood = st.number_input('Enter the Diastolic blood pressure: ',min_value=0.0, ma
 Tri = st.number_input('Enter the Triceps skin fold thickness: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
 insulin = st.number_input('Enter the 2-Hour serum insulin: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
 mass = st.number_input('Enter the Body mass index: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
-fun = st.number_input('Enter the Diabetespe digree function: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
+fun = st.number_input('Enter the Diabetespe digree function: ',min_value=0.0, max_value=1000.0, step=1.,format="%.2f")
 age = st.number_input('Enter the Age: ',min_value=0.0, max_value=1000.0, step=0.1e-6)
 
 
